@@ -15,7 +15,7 @@ import (
 
 var (
 	srcDir     = "/home/sslater/exampleFiles"
-	destDir    = "/home/users/sslater/golang_snippets_learning/safe_concurency/filesgohere"
+	destDir    = "/home/users/sslater/golang_snippets_learning/safe_concurrency/filesgohere"
 	logdir     = filepath.Join(destDir, "logs")
 	logfile    = filepath.Join(logdir, "logfile.txt")
 	mainLogger *logrus.Logger
